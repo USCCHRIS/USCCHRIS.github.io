@@ -1,5 +1,5 @@
 body {
-    background: rgb(96, 101, 101);
+    background: lightgray;
     font-family: "Times New Roman", Times, serif;
 }
 h1 {
@@ -10,6 +10,6 @@ h1 {
 width: 30%;
 margin: 10px;
 padding: 20px 10px;
-background: lightgray; 
+background: rgb(182, 195, 199); 
 border-radius: 25%;
 }
