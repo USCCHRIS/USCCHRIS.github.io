@@ -22,8 +22,8 @@ h1 {
 }
 .project img {
     /* adjust your image sizes as needed */
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin: 10px auto;
     border: 2px solid navy;
     display: block;
