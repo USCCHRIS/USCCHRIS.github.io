@@ -7,9 +7,31 @@ h1 {
     text-align: center;
 }
 .project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: rgb(182, 195, 199); 
-border-radius: 25%;
+    display:flex; 
+    flex-wrap:wrap;
+}
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(171, 185, 199);
+    border-radius: 25%;
+}
+.project h3 {
+    margin-left: 50px;
+}
+.project img {
+    /* adjust your image sizes as needed */
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px solid navy;
+    display: block;
+    /* center the images inside the blobs */
+    text-align: center;
+}
+.project p {
+    /* center the p text in the blob */
+    text-align: center;
+    margin: 15px;
 }
