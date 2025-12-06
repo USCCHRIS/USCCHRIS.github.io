@@ -1,5 +1,5 @@
 body {
-    background: rgb(183, 138, 183);
+    background: rgb(181, 163, 181);
     font-family: "Times New Roman", Times, serif;
 }
 h1 {
@@ -7,10 +7,10 @@ h1 {
     text-align: center;
 }
 .projects {
-    display:flex; 
-    flex-wrap:wrap;
-    justify-content: center;
+    display:grid; 
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    justify-items: center;
 }
 .project {
     width: 30%;
@@ -33,7 +33,7 @@ h1 {
     width: 300px;
     height: 200px;
     margin: 10px auto;
-    border: 2px solid navy;
+    border: 2px solid rgb(246, 231, 161);
     display: block;
     /* center the images inside the blobs */
     text-align: center;
