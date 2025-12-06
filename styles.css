@@ -1,5 +1,5 @@
 body {
-    background: rgb(120, 97, 120);
+    background: rgb(171, 139, 171);
     font-family: "Times New Roman", Times, serif;
 }
 h1 {
@@ -16,7 +16,7 @@ h1 {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: rgb(171, 185, 199);
+    background: rgb(129, 174, 220);
     border-radius: 25%;
 }
 
